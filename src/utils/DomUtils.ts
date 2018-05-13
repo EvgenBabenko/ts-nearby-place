@@ -15,7 +15,7 @@ export default class {
         }, {});
     }
 
-    public createElement(tag: string, props: any, ...children: any[]): object {
+    public createElement(tag: string, props: any, ...children: any[]): any {
         const element: any = document.createElement(tag);
     
         Object.keys(props).forEach(key => (element[key] = props[key]));

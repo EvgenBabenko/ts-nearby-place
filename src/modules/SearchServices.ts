@@ -1,7 +1,7 @@
-import GoogleApi from '../modules/GoogleApi'
-import Iterator from "../modules/Iterator";
+import GoogleApi from './GoogleApi'
+import Iterator from "./Iterator";
 import globTypes from "../fixtures/searchTypes";
-import GeoLogic from "../modules/GeoLogic";
+import GeoLogic from "./GeoLogic";
 
 import {ILocation} from "../types/ILocation";
 

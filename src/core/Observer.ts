@@ -1,4 +1,4 @@
-export default class {
+export default class Observer {
 
     callbacks: any[];
 
@@ -12,7 +12,7 @@ export default class {
         return () => this.callbacks = this.callbacks.filter(cb => cb !== callback);
     }
 
-    notify() {
-        this.callbacks.forEach(callbacks => callbacks());
+    notify(args?: any) {
+        this.callbacks.forEach(callbacks => callbacks(args));
     }
 }

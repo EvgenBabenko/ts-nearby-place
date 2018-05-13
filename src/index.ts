@@ -1,6 +1,6 @@
-import PlaceController from './PlaceController'
-import PlaceView from './PlaceView'
-import PlaceModel from './PlaceModel'
+import PlaceController from './core/PlaceController'
+import PlaceView from './core/PlaceView'
+import PlaceModel from './core/PlaceModel'
 
 const model: PlaceModel = new PlaceModel({
     lat: 35.00004,
